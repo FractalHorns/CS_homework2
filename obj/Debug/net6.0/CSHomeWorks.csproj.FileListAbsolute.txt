@@ -1,0 +1,16 @@
+E:\CSHomeWorks\bin\Debug\net6.0\CSHomeWorks.exe
+E:\CSHomeWorks\bin\Debug\net6.0\CSHomeWorks.deps.json
+E:\CSHomeWorks\bin\Debug\net6.0\CSHomeWorks.runtimeconfig.json
+E:\CSHomeWorks\bin\Debug\net6.0\CSHomeWorks.dll
+E:\CSHomeWorks\bin\Debug\net6.0\ref\CSHomeWorks.dll
+E:\CSHomeWorks\bin\Debug\net6.0\CSHomeWorks.pdb
+E:\CSHomeWorks\obj\Debug\net6.0\CSHomeWorks.GlobalUsings.g.cs
+E:\CSHomeWorks\obj\Debug\net6.0\CSHomeWorks.csproj.AssemblyReference.cache
+E:\CSHomeWorks\obj\Debug\net6.0\CSHomeWorks.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSHomeWorks\obj\Debug\net6.0\CSHomeWorks.AssemblyInfoInputs.cache
+E:\CSHomeWorks\obj\Debug\net6.0\CSHomeWorks.AssemblyInfo.cs
+E:\CSHomeWorks\obj\Debug\net6.0\CSHomeWorks.csproj.CoreCompileInputs.cache
+E:\CSHomeWorks\obj\Debug\net6.0\CSHomeWorks.dll
+E:\CSHomeWorks\obj\Debug\net6.0\ref\CSHomeWorks.dll
+E:\CSHomeWorks\obj\Debug\net6.0\CSHomeWorks.pdb
+E:\CSHomeWorks\obj\Debug\net6.0\CSHomeWorks.genruntimeconfig.cache
