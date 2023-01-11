@@ -1,93 +1,73 @@
-﻿/*
-Задача 10: Напишите программу, которая принимает на вход 
-трёхзначное число и на выходе показывает вторую цифру этого числа.
+﻿/*void GetDiapazon(int quadrant)
+{
+    if(quadrant == 1) Console.WriteLine("x > 0, y > 0");
+    else if(quadrant == 2) Console.WriteLine("x < 0, y > 0");
+    else if(quadrant == 3) Console.WriteLine("x < 0, y < 0");
+    else if(quadrant == 4) Console.WriteLine("x > 0, y < 0");
+    else Console.WriteLine("NaN");
+}
 
-456 -> 5
-782 -> 8
-918 -> 1
+Console.Write("Input a number of quadrant: ");
+int quadNum = Convert.ToInt32(Console.ReadLine());
 
-Задача 13: Напишите программу, которая выводит третью цифру 
-заданного числа или сообщает, что третьей цифры нет.
+GetDiapazon(quadNum);
+*/
+//             H O M E W O R K 06.01.2023 !
+//Задача 21
+ /*    
+Double x1=0;
+Double x2=0;
+Double y1=0;
+Double y2=0;
+Double z1=0; 
+Double z2=0;
+Double d=0;
+Console.Write("x1=");
+x1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("x2=");
+x2 = Convert.ToDouble(Console.ReadLine());
+Console.Write("y1=");
+y1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("y2=");
+y2 = Convert.ToDouble(Console.ReadLine());
+Console.Write("z1=");
+z1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("x2=");
+z2 = Convert.ToDouble(Console.ReadLine());
 
-645 -> 5
-
-78 -> третьей цифры нет
-
-32679 -> 6
-
-Задача 15: Напишите программу, которая принимает на вход цифру, 
-обозначающую день недели, и проверяет, является ли этот день выходным.
-
-6 -> да
-7 -> да
-1 -> нет
+d = Math.Sqrt(Math.Pow(x2-x1,2)+Math.Pow(y2-y1,2)+Math.Pow(z2-z1,2));
+d = Math.Round(d, 2);
+Console.WriteLine(d);
 */
 
-// Homework 25.12.2022
-// Задание 10
+//Задача 23
 /*
-int Transformation(int num)
-{
-    int des = num / 10;
-    int result = des % 10;
+int a = 0;
+int i = 1;
+Console.Write("enter a: ");
+a = Convert.ToInt32(Console.ReadLine());
 
-    return result;
-}
-Console.Write("введите трехзначное число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-int newNum = Transformation(num);
-Console.Write($"новое число - {newNum}");
-*/
-
-// Задание 13
-int newNum2 = 0;
-int Transformation(int num)
+while (i <= a)
 {
-    int result = num % 10;
-    return result;
-}
-Console.Write("введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-
-if (num < 100)
-{
-    Console.Write("третьей цифры нет!");
+    //Math.Pow(i, 3);
     
-}
-else if (num > 999)
-{
-    num = num % 1000;
-    newNum2 = num / 100;
-    Console.Write($"новое число - {newNum2}");
-}
-else 
-{
-    int newNum = Transformation(num);
-    Console.Write($"новое число - {newNum}");
-}
-
-
-// Задача 15
-/*
-
-bool wknd(int num)
-{
-    if (num > 0 & num < 6) return false;
-    else return true;
-}
-Console.Write("Введите число дня недели: ");
-int num = Convert.ToInt32(Console.ReadLine());
-
-
-if (num > 7 || num < 0)
-{
-Console.Write("NaN");
-}
-else
-{
-    Console.Write(wknd(num));
+    Console.WriteLine(Math.Pow(i, 3));
+    i++;
 }
 */
+//Задача 19  
+
+bool Transform(int num)
+{  
+    if ((num / 10000) == (num % 10)) & ((num / 1000) == (num % 100));
+        return true;
+
+    else   
+        return false;
+}
 
 
+Console.Write("Введите 5-ти значное число: ");
+num = Convert.ToInt32(Console.ReadLine());
 
+Transform(num);
